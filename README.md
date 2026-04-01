@@ -19,7 +19,7 @@ This is a comprehensive Doctor Evaluation System designed with a Python Flask ba
    ```bash
    mysql -u root -p < setup_db.sql
    ```
-   *(Note: The `backend/app.py` script connects using the user `root` with a blank password. If your MySQL root user has a password, please update `backend/app.py` matching your configuration).*
+   *(Note: The `backend/app.py` script connects using the user `root` with a password of mysql. If your MySQL root user has a password, please update `backend/app.py` matching your configuration).*
 
 ### 2. Backend Setup
 1. Open your terminal and navigate to the `backend` directory.
